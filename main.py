@@ -2,6 +2,6 @@ import numpy as np
 from time import sleep
 
 
-while True:
-	print('Hello, World')
+for i in range(10):
+	print(f'Hello, World. {i}')
 	sleep(5)
