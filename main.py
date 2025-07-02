@@ -1,3 +1,7 @@
 import numpy as np  
+from time import sleep
 
-print('Hello World')
+
+while True:
+	print('Hello, World')
+	sleep(5)
